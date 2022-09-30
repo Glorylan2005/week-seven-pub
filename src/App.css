@@ -7,7 +7,9 @@ nav {
   justify-content: center;
   background: black;
   flex-wrap: wrap;
-  
+}
+.none {
+  display: none;
 }
 .link {
   padding: 10px 50px;
