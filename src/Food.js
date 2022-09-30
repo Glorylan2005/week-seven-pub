@@ -14,6 +14,9 @@ function Food ({foodlist}){
                 <p className='addition'>{addition}</p>
                 <p className='price'>{price}</p>
                 </div>
+                <div className='none'>
+                    <p>{searchTerm}</p>
+                </div>
             </div>
         }))}
     </div>
