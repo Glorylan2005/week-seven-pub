@@ -370,7 +370,7 @@ input {
   .contactcont {
     width: 280px;
   }
-  label {
+  .label {
     flex-wrap: wrap;
   }
 }
