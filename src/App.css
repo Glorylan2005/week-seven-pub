@@ -355,7 +355,7 @@ input {
   .link {
     background: rgb(5, 5, 5) radial-gradient(150% 100% at 50% 5px, rgba(255,255,255,.2), rgba(0,0,0,0));
     box-shadow: inset rgba(0,0,0,.6) 0 -2px 5px, inset rgba(252,255,255,.7) 0 2px 5px, rgba(0,0,0,.8) 0 2px 5px -1px; 
-    width: 120px;
+    width: 200px;
     text-align: center;
   }
   .logocat {
