@@ -368,8 +368,12 @@ input {
     width: 360px;
   }
   .contactcont {
+    width: 300px;
+  }
+  .formcontainer{
     width: 280px;
   }
+
   .label {
     flex-wrap: wrap;
   }
@@ -432,5 +436,11 @@ input {
   }
   .card {
     height: 500px;
+  }
+  .contactcont {
+    width: 280px;
+  }
+  .formcontainer{
+    width: 260px;
   }
 }
