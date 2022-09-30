@@ -367,6 +367,9 @@ input {
   .pinkimg {
     width: 360px;
   }
+  .contactcont {
+    width: 280px;
+  }
 }
 
 @media (max-width: 393px) {
@@ -388,9 +391,7 @@ input {
   .catimg {
     width: 280px;
   }
-  .contactcont {
-    width: 280px;
-  }
+  
 }
 
 @media (max-width: 320px) {
