@@ -22,6 +22,11 @@ return (
         </div>
         
         <Buttons filteredFood={chosenMeals}/>
+
+        <div className='cont'>
+        <button className="choice all" onClick = {() => setMeals (data)}>ALL</button>
+        </div>
+
         <Food foodlist={meals}/>
 
         <div className='cont'>
