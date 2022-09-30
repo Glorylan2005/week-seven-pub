@@ -447,4 +447,7 @@ input {
   .formcontainer{
     width: 260px;
   }
+  .inputtext {
+    width: 240px;
+    }
 }
