@@ -339,7 +339,7 @@ input {
   }
 }
 
-@media (max-width: 414px) {
+@media (max-width: 450px) {
   .homeimg {
     width: 280px;
   }
