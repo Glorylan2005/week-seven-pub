@@ -15,7 +15,7 @@ import logo from './whitecat3.png'
 function App() {
   return (<Router>
     <nav>
-      <img src={logo} alt="logo" className='link logocat' width='120px'/>
+      <img src={logo} alt="logo" className='logocat' width='120px'/>
     <Link to="/" className='link'>HOME</Link>
     <Link to="/about" className='link'>ABOUT</Link>
     <Link to="/menu" className='link redmenu'>MENU</Link>
