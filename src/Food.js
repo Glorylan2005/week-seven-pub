@@ -5,7 +5,7 @@ function Food ({foodlist}){
     <div className="food">
        
         {foodlist.map ((element => {
-            const {id, name, price, image, desctiption, addition} = element;
+            const {id, name, price, searchTerm, image, desctiption, addition} = element;
             return <div key={id} className="card">
                 <div className="card-box">
                 <h3 className="mealname">{name}</h3>
