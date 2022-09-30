@@ -378,9 +378,8 @@ input {
     flex-wrap: wrap;
   }
   .inputtext {
-  flex: 1;
-  margin-left: 10px;
-  width: 280px;
+    margin-left: 10px;
+    width: 280px;
   }
 }
 
