@@ -388,6 +388,9 @@ input {
   .catimg {
     width: 280px;
   }
+  .contactcont {
+    width: 280px;
+  }
 }
 
 @media (max-width: 320px) {
