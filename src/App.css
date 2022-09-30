@@ -370,6 +370,8 @@ input {
   .contactcont {
     width: 280px;
   }
+  form {
+    flex-wrap: wrap;
 }
 
 @media (max-width: 393px) {
