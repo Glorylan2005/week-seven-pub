@@ -6,7 +6,7 @@ html {
 }
 .navbar {
   background: rgb(5, 5, 5) radial-gradient(130% 100% at 120% 5px, rgba(255, 255, 255, 0.546), rgba(0,0,0,0));
-  box-shadow: inset rgba(0,0,0,.6) 0 -2px 5px, inset rgba(252,255,255,.7) 0 2px 5px, rgba(0,0,0,.8) 0 2px 5px -1px;
+  box-shadow: inset rgba(0,0,0,.6) 0 -2px 5px, inset rgba(252,255,255,1) 0 2px 8px, rgba(0,0,0,.8) 0 2px 5px -1px;
 }
 .link {
   padding: 10px 50px;
@@ -24,7 +24,6 @@ html {
 .logoimg {
   margin-left: 40px;
   align-self: center;
-  padding: 10px;
 }
 #responsive-navbar-nav {
   justify-content: flex-end;
@@ -406,6 +405,9 @@ input {
 @media (max-width: 393px) {
   .homeimg {
     width: 260px;
+  }
+  .pinkimg {
+    width: 320px;
   }
   .logoimg {
     width: 60px;
