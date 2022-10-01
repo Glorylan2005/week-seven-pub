@@ -21,11 +21,11 @@ return (
             <h2 className='header'>MENU</h2>
         </div>
         
-        <Buttons filteredFood={chosenMeals}/>
+        <Buttons filteredFood={chosenMeals} />
         <div className='cont'>
         <button className="choice all" onClick = {() => setMeals (data)}>ALL</button>
         </div>
-        <Food foodlist={meals}/>
+        <Food foodlist={meals} />
 
         <div className='cont'>
                 <h2 className='slogan'>COME • SIT • ENJOY</h2>

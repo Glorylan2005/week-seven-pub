@@ -14,14 +14,13 @@ import Navibar from './Navibar';
 function App() {
   return (<Router>
     
-    <Navibar />
-    
-      <Routes>
-        <Route path='/' element={<Home />} />
-        <Route path='/about' element={<About />} />
-        <Route path='/menu' element={<Menu />} />
-        <Route path='/contactus' element={<Contactus />} />
+      <Navibar />
 
+      <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='/about' element={<About />} />
+          <Route path='/menu' element={<Menu />} />
+          <Route path='/contactus' element={<Contactus />} />
       </Routes>
     </Router>
   );

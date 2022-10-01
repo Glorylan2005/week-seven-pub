@@ -3,7 +3,7 @@ import './App.css';
 function Food ({foodlist}){
     return(
     <div className="food">
-       
+    
         {foodlist.map ((element => {
             const {id, name, searchTerm, price, image, desctiption, addition} = element;
             return <div key={id} className="cardW">
