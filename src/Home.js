@@ -36,17 +36,17 @@ function Home (){
     return (
         <div className="home">
             <div className='cont slide'>
-                <div className='arrow'>
+                <div className='arrowb'>
                     <button onClick = {previousImage} className='btn'>
                         <img className='arrowimg' src={previous} alt="previous" width='80px' /> 
                     </button>
                 </div>
 
-                <div className='arrow' key={id} >
+                <div className='arrowb' key={id} >
                     <img className='homeimg' src={image} alt="bar" width='770px' />
                 </div>
 
-                <div className='arrow'>
+                <div className='arrowb'>
                     <button onClick = {nextImage} className='btn'>
                         <img className='arrowimg' src={next} alt="next" width='80px' /> 
                     </button>
