@@ -19,8 +19,8 @@ function ContactUs (){
 
             <div className='contactbox'>
                 <div className='contactcont'>
-                    <h3 className='reserv red'>LOST CAT PUB</h3>
-                    <p className='reserv'> 80 Forest Pine Dr., <br></br>Dennis, MA 02641, USA </p>
+                    <h3 className='reserv red lost'>LOST CAT PUB</h3>
+                    <p className='reserv'>🏠  80 Forest Pine Dr., <br></br>Dennis, MA 02641, USA </p>
                     <p className='reserv'> 📞 774-212-4587</p>
                     <img className='catimg' src={cat} alt="cat" width='360px' />
                 </div>

@@ -14,8 +14,9 @@ function Navibar() {
 
     return (
     <Navbar expanded={expanded} fixed="top" collapseOnSelect expand="md" >
-        <Navbar.Brand>
+        <Navbar.Brand className="navbrand">
         <img className="logoimg" src={Logo} width='120px' alt="logo" />
+       <div className="spanbrand"><span className="gr">LOST CAT</span><span>•</span><span className="rd"> PUB</span></div>
         </Navbar.Brand>
 
         <Navbar.Toggle onClick={() => setExpanded(expanded ? false : "expanded")}  aria-controls="responsive-navbar-nav" />

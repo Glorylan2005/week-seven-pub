@@ -20,7 +20,7 @@ function About (){
             </div>
 
             <div className='cont box'>
-                <p className='reserv text'>It was there, all those years ago that the LDP began to fill a need in the expatriate community for a neighborhood pub with great pizza American Music, the coldest beer and warm hospitality. Now well-established on Cape Cod, Ma in our Dennis location the Lost Cat Pub continue to be havens for the seasoned local and the seasonal tourists alike.</p>
+                <p className='reserv text just'>It was there, all those years ago that the LDP began to fill a need in the expatriate community for a neighborhood pub with great pizza American Music, the coldest beer and warm hospitality. Now well-established on Cape Cod, Ma in our Dennis location the Lost Cat Pub continue to be havens for the seasoned local and the seasonal tourists alike.</p>
             </div>
             <div className='cont'>
                 <h2 className='slogan'>COME • SIT • ENJOY</h2>

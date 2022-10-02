@@ -58,11 +58,11 @@ function Home (){
             </div>
 
             <div className='cont'>
-                <p className='reserv'>NO RESERVATIONS • FIRST COME FIRST SERVE</p>
+                <p className='reserv res'>NO RESERVATIONS • FIRST COME FIRST SERVE</p>
             </div>
 
             <div className='cont '>
-                <p className='reserv text'>
+                <p className='reserv text just'>
                 {showMore ? text : `${text.substring(0, 182) + "..."}`}
             <button className="btnShow"onClick={() => setShowMore(!showMore)}>
                 {showMore ? " Show less" : " Show more"}</button>
