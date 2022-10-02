@@ -28,7 +28,9 @@ function Navibar() {
             </Nav>
         </Navbar.Collapse>
     </Navbar>
-    );
+
+
+);
 }
 
 export default Navibar;

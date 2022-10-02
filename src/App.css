@@ -14,7 +14,6 @@ html {
   color: #32E515;
   font-family: 'Poppins', sans-serif;
   font-weight: bold;
-  align-self: flex-end;
   text-transform: uppercase;
   font-size: 22px;
 }
@@ -30,7 +29,6 @@ html {
 }
 .responsive-navbar-nav {
   width: 100vw;
-  margin-right: 20px;
 }
 .navbar-toggler {
   margin-right: 20px;
@@ -376,10 +374,10 @@ input {
   }
   
   .reserv {
-    font-size: 14px;
+    font-size: 20px;
   }
   .text {
-    font-size: 12px;
+    font-size: 18px;
   }
   .btnShow {
     font-size: 12px;
@@ -443,10 +441,10 @@ input {
     width: 200px;
   }
   .reserv {
-    font-size: 12px;
+    font-size: 16px;
   }
   .text {
-    font-size: 12px;
+    font-size: 16px;
     padding-left: 30px;
     padding-right: 30px;
   }
@@ -457,10 +455,10 @@ input {
     width: 260px;
   }
   label {
-    font-size: 12px;
+    font-size: 18px;
   }
-  input {
-    font-size: 10px;
+  .inputtext {
+    font-size: 14px;
   }
   .submit {
     font-size: 14px;
